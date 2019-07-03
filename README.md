@@ -1,13 +1,14 @@
 # ДЗ №3 - Знакомство с облачной инфраструктурой. Google Cloud Platform
 В ходе дз выполнено:
 
-1) Настройка ssh-forwarding для сквозного подключения к ВМ (в одну строку)
+# 1) Настройка ssh-forwarding для сквозного подключения к ВМ (в одну строку)
 а) ssh -J 34.77.88.197 10.132.0.3 - proxy jump 
 б) eval $(ssh-agent -s) ssh-add ~/.ssh/osarkisyan && ssh -A -t 34.77.88.197 ssh 10.132.0.3
 
-2) Настройка ssh-forwarding для сквозного подключения к ВМ (с помощью alias, с помощью конфига)
+# 2) Настройка ssh-forwarding для сквозного подключения к ВМ (с помощью alias, с помощью конфига)
 а) alias someinternalhost="ssh - J 34.77.88.197 10.132.0.3" вызов someinternalhost 
 б) конфиг 
+
 Host bastion 
 Hostname 34.77.88.197 
 User osarkisyan 
