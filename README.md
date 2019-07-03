@@ -28,7 +28,7 @@ chmod 644 ~/.ssh/config
 
 # Данные серверов GCP
 bastion_IP = 35.228.208.254
-someinternalhost_IP = 10.156.0.3
+someinternalhost_IP = 10.132.0.3
 bastion2_IP = 34.77.88.197
 
 Проблема с установкой setupvpn.sh на сервер bastion. 
