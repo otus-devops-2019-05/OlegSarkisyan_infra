@@ -26,7 +26,7 @@ ProxyCommand ssh bastion -W %h:%p
 chown $USER ~/.ssh/config 
 chmod 644 ~/.ssh/config
 
-Данные серверов GCP
+# Данные серверов GCP
 bastion_IP = 34.77.88.197
 someinternalhost_IP = 10.156.0.3
 bastion2_IP = 35.228.208.254
