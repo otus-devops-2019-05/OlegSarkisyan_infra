@@ -1,3 +1,29 @@
+# Выполнено ДЗ №4 - Основные сервисы Google Cloud Platform (GCP).
+
+#  Основное ДЗ - реализован набор из трёх скриптов
+
+# Задание со * - реализован запуск с помощью одного startup скрипта, настройка правила брендмауэра через gcloud
+
+В процессе сделано:
+Установили gcloud
+Создали VM
+Установили ruby, mongodb, запустили сервер, проверили работу
+Написали три скрипт:
+install_ruby.sh
+install_mongodb.sh
+deploy.sh
+написали один скрипт:
+startup_install.sh
+строка для создания правила firewall:
+gcloud compute firewall-rules create default-puma-server --source-ranges="0.0.0.0/0" --allow=tcp:9292 --target-tags=puma-server
+
+# Как запустить проект:
+testapp_IP = 34.77.53.231 testapp_port = 9292
+
+# Как проверить работоспособность:
+Перейти по ссылке http://34.77.53.231:9292/
+
+
 # ДЗ №3 - Знакомство с облачной инфраструктурой. Google Cloud Platform
 В ходе дз выполнено:
 
