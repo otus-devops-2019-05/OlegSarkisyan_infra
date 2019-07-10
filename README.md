@@ -18,11 +18,11 @@ startup_install.sh
 gcloud compute firewall-rules create default-puma-server --source-ranges="0.0.0.0/0" --allow=tcp:9292 --target-tags=puma-server
 
 ## Как запустить проект:
-testapp_IP = 34.77.53.231 
+testapp_IP = 35.187.165.179
 testapp_port = 9292
 
 ## Как проверить работоспособность:
-Перейти по ссылке http://34.77.53.231:9292/
+Перейти по ссылке http://35.187.165.179:9292/
 
 
 # ДЗ №3 - Знакомство с облачной инфраструктурой. Google Cloud Platform
