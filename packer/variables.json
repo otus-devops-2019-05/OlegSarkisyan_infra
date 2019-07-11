@@ -1,0 +1,9 @@
+{
+"project_id": "infra-244908",
+"source_image_family": "ubuntu-1604-lts",
+"tags": "puma-server",
+"disk_size": "10",
+"disk_type": "pd-standard",
+"image_description": "ubuntu16LTS + ruby + mongodb",
+"zone": "europe-west1-b"
+}
