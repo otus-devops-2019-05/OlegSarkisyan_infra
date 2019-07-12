@@ -1,5 +1,4 @@
-#!/bin/bash
-cd ~/
+#!/bin/sh
 sudo apt update
 sudo apt install -y ruby-full ruby-bundler build-essential
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
@@ -11,4 +10,3 @@ sudo systemctl enable mongod
 git clone -b monolith https://github.com/express42/reddit.git
 cd reddit && bundle install
 puma -d
-
